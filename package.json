@@ -5,7 +5,8 @@
   "main": "js/index.js",
   "type": "module",
   "scripts": {
-    "test": "while true; do node test/test.js; sleep 15; done\n"
+    "test": "while true; do node test/test.js; sleep 15; done\n",
+    "index": "node js/index.js"
   },
   "repository": {
     "type": "git",
