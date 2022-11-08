@@ -19,3 +19,4 @@ const time = new Date();
 console.log(`\n${dobbledigits(time.getHours())}:${dobbledigits(time.getMinutes())}:${dobbledigits(time.getSeconds())} - running Tests`);
 
 dealCardTest([...deckOfCards.deck]);
+getHandTest([...deckOfCards.deck]);
