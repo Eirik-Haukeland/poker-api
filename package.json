@@ -1,0 +1,28 @@
+{
+  "name": "poker-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "while true; do node test/test.js; sleep 15; done\n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eirik-Haukeland/poker-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eirik-Haukeland/poker-api/issues"
+  },
+  "homepage": "https://github.com/Eirik-Haukeland/poker-api#readme",
+  "devDependencies": {
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
