@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import getHand from '../js/getCards/getHand.js';
+import getHand from '../../js/getCards/getHand.js';
 
 const handSize = 5;
 const testArray = ['as', 'ks', 'qs', 'js', 'ts'];

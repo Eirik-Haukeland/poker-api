@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import shuffleDeck from '../js/deck/shuffleDeck.js';
+import shuffleDeck from '../../js/deck/shuffleDeck.js';
 
 export default (deck) => {
   const resault = shuffleDeck(deck);

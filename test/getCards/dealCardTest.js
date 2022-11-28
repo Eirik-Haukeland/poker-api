@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import dealCard from '../js/getCards/dealCard.js';
+import dealCard from '../../js/getCards/dealCard.js';
 
 export default (deck) => {
   const resault = dealCard(deck);

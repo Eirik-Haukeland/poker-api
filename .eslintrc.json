@@ -1,4 +1,7 @@
 {
   "extends": "airbnb",
-  "root": true
+  "root": true,
+  "rules": {
+    "import/extensions": "always"
+  }
 }

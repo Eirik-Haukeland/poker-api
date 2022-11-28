@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "while true; do node test/test.js; sleep 15; done\n",
-    "index": "node js/index.js"
+    "index": "node js/index.js",
+    "test2": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.10",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.3.1"
   }
 }
