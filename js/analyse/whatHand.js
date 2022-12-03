@@ -9,4 +9,22 @@ import straightFlush from './straightFlush.js';
 
 // TODO make a function that checs if the hand has enni of thees hands and returns the best one
 
-export default (hand) => {};
+export default (hand) => {
+  if (straightFlush(hand)) {
+    return "straightflush"
+  } else if (fullHouse(hand)) {
+    return "fullHouse"
+  } else if (flush(hand)) {
+    return "flush";
+  } else if (straight(hand)) {
+    return 'straight';
+  } else if (threeOfAKind(hand)) {
+    return 'threeOfAKind';
+  } else if (twoPair(hand)) {
+    return 'twoPair';
+  } else if (onePair(hand)) {
+    return 'onePair';
+  } else if (hiCard(hand)) {    
+    return 'hiCard';
+  }
+};
