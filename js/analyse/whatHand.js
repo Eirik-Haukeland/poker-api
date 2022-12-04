@@ -11,11 +11,11 @@ import straightFlush from './straightFlush.js';
 
 export default (hand) => {
   if (straightFlush(hand)) {
-    return "straightflush"
+    return "straightflush";
   } else if (fullHouse(hand)) {
-    return "fullHouse"
+    return "fullHouse";
   } else if (flush(hand)) {
-    return "flush";
+    return 'flush';
   } else if (straight(hand)) {
     return 'straight';
   } else if (threeOfAKind(hand)) {
@@ -24,7 +24,7 @@ export default (hand) => {
     return 'twoPair';
   } else if (onePair(hand)) {
     return 'onePair';
-  } else if (hiCard(hand)) {    
+  } else if (hiCard(hand).handType === 'hiCard') {    
     return 'hiCard';
   }
 };
