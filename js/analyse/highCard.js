@@ -8,12 +8,12 @@ export default (hand) => {
   });
 
   let value = 0;
-  let higestCard
+  let higestCard;
   cardsWhitValue.forEach((card, index) => {
     if (card.value > value) {
-      value = card.value
-      higestCard = card
+      value = card.value;
+      higestCard = card;
     }
   })
-  return {'handType': 'hiCard', 'handCompotents': higestCard.card}
+  return {'handType': 'high card', 'handCompotents': higestCard.card};
 };

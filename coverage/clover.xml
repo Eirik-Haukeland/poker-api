@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670144184152" clover="3.2.0">
-  <project timestamp="1670144184152" name="All files">
-    <metrics statements="105" coveredstatements="96" conditionals="43" coveredconditionals="35" methods="10" coveredmethods="10" elements="158" coveredelements="141" complexity="0" loc="105" ncloc="105" packages="2" files="11" classes="11"/>
+<coverage generated="1670174710639" clover="3.2.0">
+  <project timestamp="1670174710639" name="All files">
+    <metrics statements="98" coveredstatements="74" conditionals="34" coveredconditionals="27" methods="10" coveredmethods="9" elements="142" coveredelements="110" complexity="0" loc="98" ncloc="98" packages="2" files="11" classes="11"/>
     <package name="js.analyse">
-      <metrics statements="99" coveredstatements="90" conditionals="42" coveredconditionals="34" methods="10" coveredmethods="10"/>
+      <metrics statements="92" coveredstatements="68" conditionals="33" coveredconditionals="26" methods="10" coveredmethods="9"/>
       <file name="flush.js" path="/home/eirik/Documents/GitHub/poker-api/js/analyse/flush.js">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
@@ -17,64 +17,57 @@
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
       </file>
       <file name="hiCard.js" path="/home/eirik/Documents/GitHub/poker-api/js/analyse/hiCard.js">
-        <metrics statements="19" coveredstatements="19" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <metrics statements="19" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="0"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="5" type="stmt"/>
-        <line num="6" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="25" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-        <line num="9" count="5" type="stmt"/>
-        <line num="10" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
-        <line num="12" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="25" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="5" type="stmt"/>
-        <line num="15" count="5" type="stmt"/>
-        <line num="16" count="5" type="stmt"/>
-        <line num="17" count="5" type="stmt"/>
-        <line num="18" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
       </file>
       <file name="makeNumber.js" path="/home/eirik/Documents/GitHub/poker-api/js/analyse/makeNumber.js">
-        <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="2" count="253" type="stmt"/>
-        <line num="3" count="253" type="stmt"/>
-        <line num="4" count="253" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="45" type="stmt"/>
-        <line num="6" count="253" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="11" type="stmt"/>
-        <line num="8" count="253" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="11" type="stmt"/>
-        <line num="10" count="253" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="11" type="stmt"/>
-        <line num="12" count="253" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="35" type="stmt"/>
-        <line num="14" count="253" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="137" type="stmt"/>
-        <line num="16" count="253" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="2" count="56" type="stmt"/>
+        <line num="3" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="56" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="36" type="stmt"/>
+        <line num="15" count="56" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
       </file>
       <file name="onePair.js" path="/home/eirik/Documents/GitHub/poker-api/js/analyse/onePair.js">
-        <metrics statements="15" coveredstatements="13" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <metrics statements="9" coveredstatements="9" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="5" count="8" type="stmt"/>
         <line num="6" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="29" type="stmt"/>
-        <line num="8" count="29" type="cond" truecount="1" falsecount="0"/>
-        <line num="9" count="140" type="stmt"/>
-        <line num="10" count="140" type="cond" truecount="2" falsecount="1"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="29" type="stmt"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
       <file name="straight.js" path="/home/eirik/Documents/GitHub/poker-api/js/analyse/straight.js">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
@@ -101,7 +94,7 @@
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
       </file>
       <file name="whatHand.js" path="/home/eirik/Documents/GitHub/poker-api/js/analyse/whatHand.js">
-        <metrics statements="30" coveredstatements="23" conditionals="10" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <metrics statements="30" coveredstatements="20" conditionals="9" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -128,9 +121,9 @@
         <line num="24" count="0" type="stmt"/>
         <line num="25" count="8" type="cond" truecount="0" falsecount="1"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="27" count="8" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="5" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
       </file>
     </package>

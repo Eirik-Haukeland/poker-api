@@ -1,5 +1,4 @@
 export default (card) => {
-  console.log(card);
   switch (card.charAt(0)) {
     case 'a':
       return 14;

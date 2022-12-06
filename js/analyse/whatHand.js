@@ -1,4 +1,4 @@
-import hiCard from './hiCard.js';
+import hiCard from './highCard.js';
 import onePair from './onePair.js';
 import twoPair from './twoPair.js';
 import threeOfAKind from './threeOfAKind.js';
